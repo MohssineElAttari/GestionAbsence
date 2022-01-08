@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Gestion d'absence">
+        <menu>
+    <item
+        android:id="@+id/absence"
+        android:icon="@mipmap/calend"
+        android:title="Faire l'absence" />
+    <item
+        android:id="@+id/consulterA"
+        android:icon="@mipmap/wall"
+        android:title="Consulter l'absence" />
+        </menu>
+    </item>
+
+    <item android:title="Gestion Retard">
+        <menu>
+            <item
+                android:id="@+id/retard"
+                android:icon="@mipmap/hourglass"
+                android:title="Faire Retard" />
+            <item
+                android:id="@+id/consulterR"
+                android:icon="@mipmap/waiting"
+                android:title="Consulter le Retard" />
+        </menu>
+    </item>
+
+
+</menu>

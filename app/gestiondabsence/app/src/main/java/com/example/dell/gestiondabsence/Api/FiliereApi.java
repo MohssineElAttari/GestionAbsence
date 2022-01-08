@@ -1,0 +1,19 @@
+package com.example.dell.gestiondabsence.Api;
+
+import com.example.dell.gestiondabsence.Bean.Filiere;
+
+import java.util.List;
+
+import retrofit2.Call;
+import retrofit2.http.POST;
+
+
+
+public interface FiliereApi {
+
+    String URL = "http://192.168.43.90/GestionAbsence/api/";
+
+    @POST("getFilieres.php")
+    Call<List<Filiere>> getFilieres();
+
+}
